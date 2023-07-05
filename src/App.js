@@ -3,11 +3,13 @@ import Heading from "./components/Heading";
 import Nav from "./components/Nav";
 import Intro1 from "./components/Intro1";
 import Toggler from "./components/Toggler";
+import Promo from "./components/Promocodes/Promo";
 
 function App() {
   return (
     <div className="App">
       <Toggler />
+      <Promo />
       <Nav />
       <p>This is the starting code for "Your first component" ungraded lab </p>
       <Heading title="This is H1 Heading" />
