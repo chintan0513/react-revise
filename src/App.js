@@ -2,10 +2,12 @@ import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 import Nav from "./components/Nav";
 import Intro1 from "./components/Intro1";
+import Toggler from "./components/Toggler";
 
 function App() {
   return (
     <div className="App">
+      <Toggler />
       <Nav />
       <p>This is the starting code for "Your first component" ungraded lab </p>
       <Heading title="This is H1 Heading" />
