@@ -9,7 +9,7 @@ const Promo = () => {
 
     return (
         <div>
-            <PromoHeading data={data.header} action={data.details} />
+            <PromoHeading header={data.header} details={data.details} />
         </div>
     );
 }
