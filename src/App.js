@@ -17,10 +17,37 @@ function App() {
     { name: "orange", id: 3 },
     { name: "purple", id: 4 }
   ])
+  const bird1 = new Audio(
+    "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hydroprogne_caspia_-_Caspian_Tern_XC432679.mp3"
+  );
+
+  const bird2 = new Audio(
+    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hydroprogne_caspia_-_Caspian_Tern_XC432881.mp3"
+  );
+
+  const toggle1 = (e) => {
+    e.preventDefault();
+    if (bird1.paused) {
+      bird1.play();
+    } else {
+      bird2.pause();
+    }
+  }
+
+  const toggle2 = (e) => {
+    e.preventDefault();
+    if (bird2.paused) {
+      bird2.play();
+    } else {
+      bird1.pause();
+    }
+  }
 
   return (
     <div className="App">
 
+      <button onClick={toggle1}>Play bird 1</button>
+      <button onClick={toggle2}>Play bird 2</button>
       <Toggler />
       <Promo />
       <Nav />
