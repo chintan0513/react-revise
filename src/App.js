@@ -7,6 +7,7 @@ import Promo from "./components/Promocodes/Promo";
 import Fruits from "./components/Fruits";
 import { useState } from "react";
 import FruitsCounter from "./components/FruitsCounter";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Toggler />
       <Promo />
       <Nav />
@@ -32,6 +34,14 @@ function App() {
       <h1>Where should state go?</h1>
       <Fruits fruits={colors} />
       <FruitsCounter colors={colors} />
+
+      <Routes>
+        <Route path="/about" element={<Intro1 />} />
+        <Route path="/promo" element={<Promo />} />
+        <Route path="/article" element={<Heading />} />
+        <Route path="/contact" element={<Footer />} />
+      </Routes>
+
     </div>
   );
 }
