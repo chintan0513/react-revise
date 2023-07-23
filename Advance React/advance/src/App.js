@@ -1,3 +1,5 @@
+import '../src/styles/app.css'
+
 const data = [
   {
     _id: 1,
@@ -26,13 +28,13 @@ const data = [
 const App = () => {
   return (
     <div>
-      <p>Advance React</p>
-      <div>
+      <p className="heading">Employee Details</p>
+      <section style={{ display: 'flex', justifyContent: "space-around" }}>
         {
           data.map((entry) => {
             return (
-              <div key="_id" style={{ width: "100%", display: "flex" }}>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <div className="character" key="_id" >
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                   <img src={entry.image} style={{ mixBlendMode: "multiply", filter: "contrast(1.8)" }} alt="character" height={250} width={250} />
                   <p>{entry.name}</p>
                   <p>{entry.occupation}</p>
@@ -42,7 +44,7 @@ const App = () => {
             )
           })
         }
-      </div>
+      </section>
     </div >
   );
 }
