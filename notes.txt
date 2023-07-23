@@ -37,7 +37,6 @@ lifting a state to up and pop drilling
         -> third-party npm packages (react-player)
 
 
-
 // advance react 
 
 -> map method :- 
@@ -46,3 +45,10 @@ lifting a state to up and pop drilling
         -> keys: are identifiers that help React identify which items have changed, are added, or are removed.
         - instruct how to treat specific element when an update occurs.
         - USE unique ID from your data when possible.
+
+-> controlled components: are set of components that offer a declarative API to enable full control of  state of form 
+                          element at any given time.
+        -> value : a special property to determine input value
+        - prevent HTML default behaviour than e.preventDefault() method is used.
+
+-> Uncontrolled inputs are like standard HTML form inputs. 

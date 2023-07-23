@@ -1,22 +1,24 @@
 import '../src/styles/app.css'
+import { useState } from 'react'
+import Form from './components/Form';
 
 const data = [
   {
-    _id: 1,
+    id: 1,
     name: "Chintan Tripathi",
     occupation: "Software Engineer",
     age: 22,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdrZDxdWQ3t2KdkM4ZlWws3qCR-x5S_Ajbg&usqp=CAU"
   },
   {
-    _id: 2,
+    id: 2,
     name: "Kalpesh Tripathi",
     occupation: "Automobile Engineer",
     age: 55,
     image: "https://www.nicepng.com/png/full/109-1093540_animation-character-png-businessman-vector-characters-png.png"
   },
   {
-    _id: 3,
+    id: 3,
     name: "Anita Tripathi",
     occupation: "Chef",
     age: 46,
@@ -26,14 +28,16 @@ const data = [
 
 
 const App = () => {
+
+
   return (
     <div>
       <p className="heading">Employee Details</p>
       <section style={{ display: 'flex', justifyContent: "space-around" }}>
         {
-          data.map((entry) => {
+          data.map((entry, id) => {
             return (
-              <div className="character" key="_id" >
+              <div className="character" key={id} >
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
                   <img src={entry.image} style={{ mixBlendMode: "multiply", filter: "contrast(1.8)" }} alt="character" height={250} width={250} />
                   <p>{entry.name}</p>
@@ -45,6 +49,7 @@ const App = () => {
           })
         }
       </section>
+      <Form />
     </div >
   );
 }
