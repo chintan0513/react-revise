@@ -43,3 +43,6 @@ lifting a state to up and pop drilling
 -> map method :- 
         
         list represents the data in the form of array.
+        -> keys: are identifiers that help React identify which items have changed, are added, or are removed.
+        - instruct how to treat specific element when an update occurs.
+        - USE unique ID from your data when possible.
