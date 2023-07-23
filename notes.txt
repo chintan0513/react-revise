@@ -1,0 +1,45 @@
+Types of Events: 
+
+button ------- Event -------- function
+        listening    Trigger
+
+hooks: are functions that let you hook into React state and lifecycle features from components. (manage state)
+
+benefits of hooks: readability and simplicity
+
+states: easily chnage the behaviour in order to suita given need. || data in component that determines behaviour
+
+useState = enable use of components for controlling state
+
+state management = 
+
+lifting a state to up and pop drilling
+
+
+ * STATE MANAGEMENT * is through passing props is like taking a bus and going to each stop.
+ * CONTEXT API* is teleporting to the destination instantly. 
+        -> context provider [stores the state] and context consumer [will use the state]
+
+        -> dispatch that accepts the object literal 
+
+* props are immutable, we can't change the value of it. However, we can change the value of state.
+
+* ASSETS *
+        - Sometimes, you can combine client-side rendering and server-side rendering. This approach results in what’s referred to as isomorphic apps.
+        - In development mode, webpack bundles your files and optimizes your bundles for updates - so that any updates to any of the files in your locally developed app are quickly re-bundled. It also builds source maps so you can inspect the original file included in the bundled code.
+        - In production mode, webpack bundles your files so that they are optimized for speed. This means the files are minified and organized to take up the least amount of memory. So, they are optimized for speed because these bundles are fast to download when a user visits the website online.
+
+ -> images can be load through the import statement, require and external links.
+
+* VIDEOS & AUDIO* (2 WAYS TO ADD it in the REACT project)
+        -> video element
+        -> embedded third-party VIDEOS
+        -> third-party npm packages (react-player)
+
+
+
+// advance react 
+
+-> map method :- 
+        
+        list represents the data in the form of array.
