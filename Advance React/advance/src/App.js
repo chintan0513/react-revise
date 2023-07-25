@@ -1,4 +1,5 @@
 import '../src/styles/app.css'
+import Context from './components/Context';
 // import { useState } from 'react'
 import Form from './components/Form';
 
@@ -29,8 +30,8 @@ const data = [
 
 const App = () => {
 
-
   return (
+
     <div>
       <p className="heading">Employee Details</p>
       <section style={{ display: 'flex', justifyContent: "space-around" }}>
@@ -49,8 +50,11 @@ const App = () => {
           })
         }
       </section>
-      <Form />
+      {/* form component   */} <Form />
+      {/* Context component   */} <Context />
+
     </div >
+
   );
 }
 

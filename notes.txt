@@ -59,4 +59,8 @@ However, both are plain JS objects and deterministic.(same output for the same c
 Props are just properties, component configurations and immutable.
 when state starts with default value, a snapshot, state is private
 
--> Context: 
+// props drilling method : passing data through all component tree levels (even those components that don't need it)
+ at that time context help us.
+
+-> Context API: 
+        - alternative ways to pass the data through the component tree without habing the props down manually at lower level.
