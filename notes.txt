@@ -52,3 +52,11 @@ lifting a state to up and pop drilling
         - prevent HTML default behaviour than e.preventDefault() method is used.
 
 -> Uncontrolled inputs are like standard HTML form inputs. 
+
+Props and state are different. Props are passed to the components, when state is managed within the components.
+However, both are plain JS objects and deterministic.(same output for the same combinations)
+
+Props are just properties, component configurations and immutable.
+when state starts with default value, a snapshot, state is private
+
+-> Context: 
