@@ -64,3 +64,7 @@ when state starts with default value, a snapshot, state is private
 
 -> Context API: 
         - alternative ways to pass the data through the component tree without habing the props down manually at lower level.
+
+** HOOKS **     
+        -> useState -> used in React which works with state in components
+        -> array data structure as return value
