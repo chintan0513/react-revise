@@ -68,3 +68,8 @@ when state starts with default value, a snapshot, state is private
 ** HOOKS **     
         -> useState -> used in React which works with state in components
         -> array data structure as return value
+
+-> side effects make a function impure. however, pure functions have no side effect (same output)
+                                 B U T 
+        to avoid the side effect of a function which make it impure, we have useEffect hook.
+
