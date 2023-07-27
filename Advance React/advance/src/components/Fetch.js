@@ -7,7 +7,7 @@ const Fetch = () => {
     const [user, setUser] = useState([]);
 
     const fetchData = () => {
-        fetch('https://randomuser.me/api/?results=1')
+        fetch('https://randomuser.me/api/')
             .then(res => res.json())
             .then(data => setUser(data))
     }
