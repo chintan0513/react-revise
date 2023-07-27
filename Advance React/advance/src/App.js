@@ -1,5 +1,6 @@
 import '../src/styles/app.css'
 import Context from './components/Context';
+import Fetch from './components/Fetch';
 // import { useState } from 'react'
 import Form from './components/Form';
 
@@ -52,7 +53,7 @@ const App = () => {
       </section>
       {/* form component   */} <Form />
       {/* Context component   */} <Context />
-
+      <Fetch />
     </div >
 
   );

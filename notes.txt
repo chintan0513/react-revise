@@ -73,3 +73,13 @@ when state starts with default value, a snapshot, state is private
                                  B U T 
         to avoid the side effect of a function which make it impure, we have useEffect hook.
 
+-> rules of hooks 
+        -> only call hooks from a react component functions
+        -> call hooks at the top level of react component
+        -> call multiple state/ effect hooks
+        -> make multiple hook call in the same sequence 
+        
+-> Fetch is used to make a server requests to retrieve data on JSON format.
+        - single-threaded execution means that not further process can start before the current one is finished.
+        [Asyncronous] 
+        - 
