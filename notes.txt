@@ -83,4 +83,5 @@ when state starts with default value, a snapshot, state is private
         - single-threaded execution means that not further process can start before the current one is finished.
         [Asyncronous] 
         
-        * API *  is appication programming interface that allows two applications to talk to each other.
+        * API *  is application programming interface that allows two applications to talk to each other.
+                1 - type Safety is a way to insure that fetching something from the back-end, the result is similar as expected.
