@@ -21,7 +21,7 @@ const Fetch = () => {
             <h2>Hi {user.results[0].name.first} {user.results[0].name.last}</h2>
         </div>
     ) : (
-        <h1>Oops Bad Request</h1>
+        <h1>Oops Bad Request. However, Data is pending</h1>
     );
 }
 
