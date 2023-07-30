@@ -85,3 +85,4 @@ when state starts with default value, a snapshot, state is private
         
         * API *  is application programming interface that allows two applications to talk to each other.
                 1 - type Safety is a way to insure that fetching something from the back-end, the result is similar as expected.
+                2 - API key is a unique identifier that allows you to access the API.
