@@ -1,5 +1,6 @@
 import '../src/styles/app.css'
 import Context from './components/Context';
+import CustomFunction from './components/CustomFunction';
 import Fetch from './components/Fetch';
 // import { useState } from 'react'
 import Form from './components/Form';
@@ -58,6 +59,7 @@ const App = () => {
       <Fetch />
       <UReducer />
       <URef />
+      <CustomFunction />
     </div >
 
   );
