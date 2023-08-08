@@ -88,3 +88,13 @@ when state starts with default value, a snapshot, state is private
                 2 - API key is a unique identifier that allows you to access the API.
 
 -> useReducer -> it has a initial state and reducer function 
+
+
+ *** useState vs useReducer ***
+
+ 1. useState is used when the data is less complex, but useReducer is used when the data is complex.
+ 2. one negative characteristics of useState is often gets hard to manage when the state is complex. However, 
+        in useReducer, it requires more prep work to begin with.
+
+=> useRef 
+
