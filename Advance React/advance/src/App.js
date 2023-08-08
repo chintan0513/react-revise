@@ -3,6 +3,7 @@ import Context from './components/Context';
 import Fetch from './components/Fetch';
 // import { useState } from 'react'
 import Form from './components/Form';
+import UReducer from './components/UReducer';
 
 const data = [
   {
@@ -54,6 +55,7 @@ const App = () => {
       {/* form component   */} <Form />
       {/* Context component   */} <Context />
       <Fetch />
+      <UReducer />
     </div >
 
   );
